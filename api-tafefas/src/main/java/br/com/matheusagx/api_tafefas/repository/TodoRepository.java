@@ -2,12 +2,13 @@ package br.com.matheusagx.api_tafefas.repository;
 
 import java.util.List;
 
-import org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration;
 import org.springframework.data.domain.Sort;
-import org.springframework.data.jpa.repository.cdi.JpaRepositoryExtension;
+import org.springframework.stereotype.Repository;
+
 import br.com.matheusagx.api_tafefas.entity.Todo;
 
-public class TodoRepository extends JpaRepositoriesAutoConfiguration{
+@Repository
+public class TodoRepository {
 
 
 
