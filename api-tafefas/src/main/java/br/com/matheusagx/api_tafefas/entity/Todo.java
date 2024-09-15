@@ -1,7 +1,5 @@
 package br.com.matheusagx.api_tafefas.entity;
 
-import org.hibernate.engine.jdbc.env.spi.IdentifierCaseStrategy;
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
