@@ -1,5 +1,6 @@
 package br.com.matheusagx.api_tafefas.entity;
 
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -16,6 +17,8 @@ public class Todo {
     private String descricao;
     private boolean realizado;
     private int prioridade;
+
+    public Todo(){}
 
     public Todo(Long id, String nome, String descricao, boolean realizado, int prioridade) {
         this.id = id;
