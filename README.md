@@ -10,7 +10,7 @@ O projeto foi elaborado com a ajuda do video da <b>Giuliana Bezerra</b>, na qual
 <li>Spring MVC</li>
 <li>Spring Data JPA</li>
 <li>SpringDoc OpenAPI 3</li>
-<li>Mysql</li>
+<li>PostgreSQL</li>
 
 <h2>Práticas adotadas</h2>
 <li>SOLID, DRY, YAGNI, KISS</li>
